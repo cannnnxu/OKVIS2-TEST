@@ -5,3 +5,27 @@
 *.png
 *.asv
 /documentation
+
+# ---- in-source CMake build output ----
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+/okvisConfig.cmake
+/okvisConfigVersion.cmake
+okvis_multisensor_processing/include/okvis/okvisConfig.hpp
+/detect_cuda_compute_capabilities.cu
+/detect_cuda_version.cc
+/nn_test
+*.a
+*.so
+*.so.*
+compile_commands.json
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+
+# ---- large model weights (use Git LFS or download separately) ----
+*.pt
